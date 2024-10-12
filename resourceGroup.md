@@ -1,0 +1,9 @@
+No laboratório realizado no Portal, o primeiro passo foi a criação de um grupo de recursos. Embora as marcações não sejam obrigatórias, elas desempenham um papel fundamental no gerenciamento e controle financeiro dos recursos, pois permitem que o administrador identifique de forma clara onde cada valor foi alocado ao final do mês. Essa prática facilita a análise e o planejamento orçamentário futuro.
+
+Após a criação do grupo de recursos, foi necessário gerenciá-lo. Utilizando a funcionalidade de IAM (Controle de Acesso), o administrador configurou o acesso de usuários ao grupo. O conceito de permissionamento foi destacado como uma responsabilidade crucial, enfatizando a importância de conceder apenas as permissões mínimas necessárias a cada usuário para garantir a segurança da infraestrutura. Essa abordagem reduz o risco de acessos não autorizados e de alterações indesejadas.
+
+Na aba Configurações -> Bloqueios, o administrador teve a oportunidade de gerenciar o que poderia ou não ser modificado ou excluído dentro do grupo de recursos, permitindo estabelecer regras que restringem ações específicas e protegem os recursos críticos da organização.
+
+Além disso, durante o laboratório, foi criada uma rede virtual. Este componente é essencial para estabelecer uma infraestrutura de rede segura e eficiente, permitindo que a rede virtual esteja em uma localização geográfica diferente do grupo de recursos. Essa flexibilidade é vital para arquiteturas que requerem uma distribuição geográfica otimizada e a implementação de soluções em nuvem que atendam a diferentes requisitos de negócios.
+
+Com essas práticas, o laboratório não apenas promoveu o aprendizado sobre a criação e gerenciamento de grupos de recursos e redes virtuais, mas também destacou a importância da segurança e da organização na gestão de recursos na nuvem.
